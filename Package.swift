@@ -8,6 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "GiphyUISDK",
+            type: .dynamic,
             targets: ["GiphyUISDKWrapper"]),
     ],
     dependencies: [
